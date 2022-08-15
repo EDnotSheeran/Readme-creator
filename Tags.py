@@ -2,7 +2,7 @@ class Tags:
     
     def makeDiv(strName: str, strPosition: str, strTags: str):
         return f"\n\n<div align=\"{strPosition}\" class=\"{strName}\">\n\n {strTags} \n\n</div>\n"
-
+# dasddasdasd
 def makeTag(strType: str, strText: str):
     return f"\t\t\n<{strType}>{strText}</{strType}>\n"
 
